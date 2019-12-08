@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CFC454923918F7B00C61639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC454823918F7B00C61639 /* AppDelegate.swift */; };
+		2CFC454B23918F7B00C61639 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC454A23918F7B00C61639 /* SceneDelegate.swift */; };
+		2CFC454D23918F7B00C61639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC454C23918F7B00C61639 /* ViewController.swift */; };
+		2CFC455023918F7B00C61639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC454E23918F7B00C61639 /* Main.storyboard */; };
+		2CFC455223918F7C00C61639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC455123918F7C00C61639 /* Assets.xcassets */; };
+		2CFC455523918F7C00C61639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC455323918F7C00C61639 /* LaunchScreen.storyboard */; };
+		2CFC455E2391CC4F00C61639 /* winningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC455D2391CC4F00C61639 /* winningSound.mp3 */; };
+		2CFC45602391D28200C61639 /* 08 Casino Night Zone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC455F2391D28200C61639 /* 08 Casino Night Zone.mp3 */; };
+		2CFC45622391D37B00C61639 /* lever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC45612391D37B00C61639 /* lever.mp3 */; };
+		2CFC45642391D38100C61639 /* spinningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC45632391D38100C61639 /* spinningSound.mp3 */; };
+		E9FD46370EA678D78FCAE49B /* Pods_SlotMachineGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814B067DDC6178BAA9E6609F /* Pods_SlotMachineGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CFC454523918F7B00C61639 /* SlotMachineGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFC454823918F7B00C61639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CFC454A23918F7B00C61639 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CFC454C23918F7B00C61639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CFC454F23918F7B00C61639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CFC455123918F7C00C61639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CFC455423918F7C00C61639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CFC455623918F7C00C61639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFC455D2391CC4F00C61639 /* winningSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winningSound.mp3; sourceTree = "<group>"; };
+		2CFC455F2391D28200C61639 /* 08 Casino Night Zone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Casino Night Zone.mp3"; sourceTree = "<group>"; };
+		2CFC45612391D37B00C61639 /* lever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lever.mp3; sourceTree = "<group>"; };
+		2CFC45632391D38100C61639 /* spinningSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spinningSound.mp3; sourceTree = "<group>"; };
+		406D7EE57124BC35B5939C82 /* Pods-SlotMachineGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlotMachineGame.debug.xcconfig"; path = "Target Support Files/Pods-SlotMachineGame/Pods-SlotMachineGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7990D8190B452C32BD12D15F /* Pods-SlotMachineGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlotMachineGame.release.xcconfig"; path = "Target Support Files/Pods-SlotMachineGame/Pods-SlotMachineGame.release.xcconfig"; sourceTree = "<group>"; };
+		814B067DDC6178BAA9E6609F /* Pods_SlotMachineGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlotMachineGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFC454223918F7B00C61639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FD46370EA678D78FCAE49B /* Pods_SlotMachineGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFC453C23918F7B00C61639 = {
+			isa = PBXGroup;
+			children = (
+				2CFC454723918F7B00C61639 /* SlotMachineGame */,
+				2CFC454623918F7B00C61639 /* Products */,
+				F207A8A265B4F07A5DAF8D63 /* Pods */,
+				E329AB9FBD7BB4808EC326F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFC454623918F7B00C61639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC454523918F7B00C61639 /* SlotMachineGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFC454723918F7B00C61639 /* SlotMachineGame */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC455C2391CC4200C61639 /* Sounds */,
+				2CFC454823918F7B00C61639 /* AppDelegate.swift */,
+				2CFC454A23918F7B00C61639 /* SceneDelegate.swift */,
+				2CFC454C23918F7B00C61639 /* ViewController.swift */,
+				2CFC454E23918F7B00C61639 /* Main.storyboard */,
+				2CFC455123918F7C00C61639 /* Assets.xcassets */,
+				2CFC455323918F7C00C61639 /* LaunchScreen.storyboard */,
+				2CFC455623918F7C00C61639 /* Info.plist */,
+			);
+			path = SlotMachineGame;
+			sourceTree = "<group>";
+		};
+		2CFC455C2391CC4200C61639 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC45632391D38100C61639 /* spinningSound.mp3 */,
+				2CFC45612391D37B00C61639 /* lever.mp3 */,
+				2CFC455F2391D28200C61639 /* 08 Casino Night Zone.mp3 */,
+				2CFC455D2391CC4F00C61639 /* winningSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E329AB9FBD7BB4808EC326F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814B067DDC6178BAA9E6609F /* Pods_SlotMachineGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F207A8A265B4F07A5DAF8D63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				406D7EE57124BC35B5939C82 /* Pods-SlotMachineGame.debug.xcconfig */,
+				7990D8190B452C32BD12D15F /* Pods-SlotMachineGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFC454423918F7B00C61639 /* SlotMachineGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFC455923918F7C00C61639 /* Build configuration list for PBXNativeTarget "SlotMachineGame" */;
+			buildPhases = (
+				06F530B0869A81CB1900A60F /* [CP] Check Pods Manifest.lock */,
+				2CFC454123918F7B00C61639 /* Sources */,
+				2CFC454223918F7B00C61639 /* Frameworks */,
+				2CFC454323918F7B00C61639 /* Resources */,
+				0112FE80D7CFE4A8C254EE66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachineGame;
+			productName = SlotMachineGame;
+			productReference = 2CFC454523918F7B00C61639 /* SlotMachineGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFC453D23918F7B00C61639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ivan;
+				TargetAttributes = {
+					2CFC454423918F7B00C61639 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 2CFC454023918F7B00C61639 /* Build configuration list for PBXProject "SlotMachineGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CFC453C23918F7B00C61639;
+			productRefGroup = 2CFC454623918F7B00C61639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFC454423918F7B00C61639 /* SlotMachineGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFC454323918F7B00C61639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC455523918F7C00C61639 /* LaunchScreen.storyboard in Resources */,
+				2CFC455E2391CC4F00C61639 /* winningSound.mp3 in Resources */,
+				2CFC455223918F7C00C61639 /* Assets.xcassets in Resources */,
+				2CFC45602391D28200C61639 /* 08 Casino Night Zone.mp3 in Resources */,
+				2CFC455023918F7B00C61639 /* Main.storyboard in Resources */,
+				2CFC45622391D37B00C61639 /* lever.mp3 in Resources */,
+				2CFC45642391D38100C61639 /* spinningSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0112FE80D7CFE4A8C254EE66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlotMachineGame/Pods-SlotMachineGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlotMachineGame/Pods-SlotMachineGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlotMachineGame/Pods-SlotMachineGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06F530B0869A81CB1900A60F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlotMachineGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFC454123918F7B00C61639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC454D23918F7B00C61639 /* ViewController.swift in Sources */,
+				2CFC454923918F7B00C61639 /* AppDelegate.swift in Sources */,
+				2CFC454B23918F7B00C61639 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CFC454E23918F7B00C61639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFC454F23918F7B00C61639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CFC455323918F7C00C61639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFC455423918F7C00C61639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CFC455723918F7C00C61639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CFC455823918F7C00C61639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CFC455A23918F7C00C61639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406D7EE57124BC35B5939C82 /* Pods-SlotMachineGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6RP3H788Z;
+				INFOPLIST_FILE = SlotMachineGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.SlotMachineGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CFC455B23918F7C00C61639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7990D8190B452C32BD12D15F /* Pods-SlotMachineGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6RP3H788Z;
+				INFOPLIST_FILE = SlotMachineGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.SlotMachineGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFC454023918F7B00C61639 /* Build configuration list for PBXProject "SlotMachineGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC455723918F7C00C61639 /* Debug */,
+				2CFC455823918F7C00C61639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFC455923918F7C00C61639 /* Build configuration list for PBXNativeTarget "SlotMachineGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFC455A23918F7C00C61639 /* Debug */,
+				2CFC455B23918F7C00C61639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFC453D23918F7B00C61639 /* Project object */;
+}
